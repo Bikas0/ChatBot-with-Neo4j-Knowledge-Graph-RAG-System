@@ -114,7 +114,7 @@ def Chat(graph, llm, embedding, vector_index, question):
     )
 
     # Build final prompt template
-    template = """Answer the question based only on the following context and Please don't use any negative word or sentence like Unfortunately:
+    template = """Answer the question based only on the following context. Please understand the overall meaning of the question, even if there are spelling mistakes, and ensure that no negative words or sentences are used, like Unfortunately:
     {context}
     Question: {question}
     Use natural language and be concise.

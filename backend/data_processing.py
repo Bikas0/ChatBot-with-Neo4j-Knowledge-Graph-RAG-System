@@ -30,7 +30,7 @@ NEO4J_USERNAME = os.getenv("NEO4J_USERNAME")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
 
 def embedding_model():
-    model = HuggingFaceEmbeddings(model_name="thenlper/gte-large")
+    model = HuggingFaceEmbeddings(model_name="GeneralTextEmbeddingModel")
     return model
 
 # Initialize embeddings and Neo4j driver

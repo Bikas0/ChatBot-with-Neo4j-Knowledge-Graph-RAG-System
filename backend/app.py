@@ -125,7 +125,7 @@ def ask_question(request: ChatRequest, model: Optional[str] = Query(None), groq_
         # Process the question using Chat with the selected API key
         response = Chat(
             graph=graph,
-            llm=ChatGroq(groq_api_key=api_key_to_use, model_name = model_name),  # Pass the API key here
+            llm=ChatGroq(groq_api_key=api_key_to_use, model_name = model_name, temperature = 0),  # Pass the API key here
             embedding=embeddModel,
             vector_index=vector_index,
             question=request.question,
