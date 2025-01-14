@@ -1,4 +1,4 @@
-# ChatBot with Neo4j Knowledge Graph and RAG System
+# ChatBot with Neo4j & Knowledge Graph RAG System
 
 A cutting-edge chatbot system that combines the power of Neo4j Knowledge Graphs and Retrieval-Augmented Generation (RAG) to deliver highly contextual and intelligent responses. This project leverages the strengths of graph-based knowledge representation and retrieval-based AI to enhance chatbot performance and ensure accurate, relevant, and dynamic interactions.
 
