@@ -1,0 +1,15 @@
+{
+    "Servers": {
+      "1": {
+        "Name": "agentpro_db",
+        "Group": "Servers",
+        "Host": "postgres",
+        "Port": 5432,
+        "MaintenanceDB": "agentpro_db",
+        "Username": "Vivasoft",
+        "PassFile": "/pgadmin4/pgpass",
+        "SSLMode": "prefer"
+      }
+    }
+  }
+  
